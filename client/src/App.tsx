@@ -20,7 +20,7 @@ interface Product {
   supplier: string;
 }
 
-const BASE_URL = "http://localhost:3001/api";
+const BASE_URL = "https://inventory-system-ltrx.onrender.com/api";
 
 const Inventory: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);
